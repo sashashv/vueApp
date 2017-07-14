@@ -1,4 +1,5 @@
 <template>
+<<<<<<< HEAD
     <div class="details">
         <header>
             <h1><a href="#">{{postDetail.title + "-" + "" + postDetail.id}}</a></h1>
@@ -11,6 +12,10 @@
         <footer>
             <p>{{postDetail.footer}}</p>
         </footer>
+=======
+    <div>
+        postDetail
+>>>>>>> e7121d763fbcac1029c789dc2d3a309152ac33b4
     </div>
 </template>
 
@@ -19,6 +24,7 @@ export default {
   name: 'postDetail',
   data () {
     return {
+<<<<<<< HEAD
       postDetail:
           {
               id: 1,
@@ -28,12 +34,16 @@ export default {
               footer:"sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
               img: "http://lorempixel.com/100/100/"
           }
+=======
+      msg: 'postDetail'
+>>>>>>> e7121d763fbcac1029c789dc2d3a309152ac33b4
     }
   }
 }
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
+<<<<<<< HEAD
 <style lang="scss" scoped>
 
     .details {
@@ -92,4 +102,8 @@ export default {
         color: lightcoral;
     }
 
+=======
+<style lang="sass" scoped>
+    
+>>>>>>> e7121d763fbcac1029c789dc2d3a309152ac33b4
 </style>

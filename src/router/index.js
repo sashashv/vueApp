@@ -21,6 +21,7 @@ export default new Router({
       component: Admin
     },
     {
+<<<<<<< HEAD
       path: '/:id',
       name: 'PostDetail',
       component: PostDetail
@@ -29,6 +30,16 @@ export default new Router({
       path: '/admin',
       name: 'Login',
       component: Login
+=======
+      path: '/login',
+      name: 'Login',
+      component: Login
+    },
+    {
+      path: '/:id',
+      name: 'PostDetail',
+      component: PostDetail
+>>>>>>> e7121d763fbcac1029c789dc2d3a309152ac33b4
     }
   ]
 })
