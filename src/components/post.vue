@@ -1,4 +1,5 @@
 <template>
+<<<<<<< HEAD
   <section>
      <ul>
         <li v-for="post in postlist">
@@ -15,6 +16,17 @@
         </li>
      </ul>
   </section>
+=======
+    <div>
+        <ul>
+            <li v-for="post in postList">
+                <h2>{{post.title + " " + post.id}}</h2>
+                <router-link :to="{path : '/' + post.id}">Go to post</router-link>
+                <p>{{post.body}}</p>
+            </li>
+        </ul>
+    </div>
+>>>>>>> d0bdd44a22d7b0dc0d8aa1e93fae7c3c83a5439d
 </template>
 
 <script>
@@ -22,6 +34,7 @@ export default {
   name: 'post',
   data () {
     return {
+<<<<<<< HEAD
       postlist: [
       {
         id: 1,
@@ -114,3 +127,28 @@ export default {
 
 </style>
 
+=======
+      postList: [
+      {
+        id: 1,
+        title:"Lorem Ipsum",
+        body:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        img:""
+       },
+       {
+         id: 2,
+         title: "Lorem Ipsum",
+         body: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+         img:""
+       }
+    ]
+  }
+}
+}
+</script>
+
+<!-- Add "scoped" attribute to limit CSS to this component only -->
+<style lang="sass" scoped>
+    
+</style>
+>>>>>>> d0bdd44a22d7b0dc0d8aa1e93fae7c3c83a5439d

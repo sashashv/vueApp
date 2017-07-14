@@ -1,4 +1,5 @@
 <template>
+<<<<<<< HEAD
     <div id="app">
         <nav>
             <ul class="nav-wrapper">
@@ -17,6 +18,16 @@
             <router-view></router-view>
         </div>
     </div>
+=======
+  <div id="app">
+  <nav>
+    <router-link to="/"><img src="./assets/logo.png"></router-link>
+    <router-link to="/admin">Admin</router-link>
+    <router-link to="/login">Login</router-link>
+    <router-view></router-view>
+  </nav>
+  </div>
+>>>>>>> d0bdd44a22d7b0dc0d8aa1e93fae7c3c83a5439d
 </template>
 
 <script>
@@ -25,6 +36,7 @@ export default {
 }
 </script>
 
+<<<<<<< HEAD
 <style lang="scss" scoped>
     #app {
         font-family: 'Avenir', Helvetica, Arial, sans-serif;
@@ -59,5 +71,18 @@ export default {
         }
     }
 
+=======
+<style lang="sass">
+#app
+  font-family: 'Avenir', Helvetica, Arial, sans-serif
+  -webkit-font-smoothing: antialiased
+  -moz-osx-font-smoothing: grayscale
+  text-align: center
+  color: #2c3e50
+  margin-top: 60px
+  img
+    width: 50px
+    height: 50px
+>>>>>>> d0bdd44a22d7b0dc0d8aa1e93fae7c3c83a5439d
 
 </style>
