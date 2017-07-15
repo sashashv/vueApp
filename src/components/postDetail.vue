@@ -1,5 +1,4 @@
 <template>
-<<<<<<< HEAD
     <div class="details">
         <header>
             <h1><a href="#">{{postDetail.title + "-" + "" + postDetail.id}}</a></h1>
@@ -12,29 +11,15 @@
         <footer>
             <p>{{postDetail.footer}}</p>
         </footer>
-=======
-    <div>
-        postDetail
->>>>>>> e7121d763fbcac1029c789dc2d3a309152ac33b4
     </div>
 </template>
 
 <script>
-<<<<<<< HEAD
 
-=======
->>>>>>> d0bdd44a22d7b0dc0d8aa1e93fae7c3c83a5439d
 export default {
   name: 'postDetail',
   data () {
     return {
-<<<<<<< HEAD
-<<<<<<< HEAD
-
-=======
-      msg: 'postDetail'
->>>>>>> d0bdd44a22d7b0dc0d8aa1e93fae7c3c83a5439d
-=======
       postDetail:
           {
               id: 1,
@@ -44,17 +29,11 @@ export default {
               footer:"sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
               img: "http://lorempixel.com/100/100/"
           }
-=======
-      msg: 'postDetail'
->>>>>>> e7121d763fbcac1029c789dc2d3a309152ac33b4
->>>>>>> dev2
     }
   }
 }
 </script>
 
-<!-- Add "scoped" attribute to limit CSS to this component only -->
-<<<<<<< HEAD
 <style lang="scss" scoped>
 
     .details {
@@ -62,10 +41,11 @@ export default {
         background: white;
         margin: auto;
     header {
+    margin-top: 20px;
     h1 {
 
         font-size: 26px;
-        padding: 15px 20px;
+        padding: 5px 5px;
         width: 80px;
         height: 30px;
         cursor: pointer;
@@ -78,6 +58,11 @@ export default {
         }
     &:hover{
          box-shadow: 2px 15px 20px lightseagreen;
+         -webkit-transition: all 1s ease-out;
+         -moz-transition: all 1s ease-out ;
+         -ms-transition: all 1s ease-out ;
+         -o-transition: all 1s ease-out ;
+         transition: all 1s ease-out ;
      }
 
     }
@@ -95,16 +80,30 @@ export default {
         padding: 15px;
         border: 2px solid lightseagreen;
         border-radius: 15px;
+        background-color: lightcoral;
+        opacity: 0.6;
+    &:hover{
+         box-shadow: 2px 15px 20px lightseagreen;
+         -webkit-transition: all 1s ease-out;
+         -moz-transition: all 1s ease-out ;
+         -ms-transition: all 1s ease-out ;
+         -o-transition: all 1s ease-out ;
+         transition: all 1s ease-out ;
+     }
     }
         img{
             height: 100px;
             width:200px;
-            border: 3px solid lightcoral;
+            border: 3px solid lightseagreen;
             border-radius: 15px;
             margin-top: 50px;
-            margin-bottom: 20px;
     &:hover{
          box-shadow: 2px 15px 20px lightcoral;
+         -webkit-transition: all 1s ease-out;
+         -moz-transition: all 1s ease-out ;
+         -ms-transition: all 1s ease-out ;
+         -o-transition: all 1s ease-out ;
+         transition: all 1s ease-out ;
      }
         }
     }
@@ -113,8 +112,4 @@ export default {
         color: lightcoral;
     }
 
-=======
-<style lang="sass" scoped>
-    
->>>>>>> e7121d763fbcac1029c789dc2d3a309152ac33b4
 </style>
