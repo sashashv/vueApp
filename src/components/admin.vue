@@ -1,8 +1,5 @@
 <template>
-<<<<<<< HEAD
     <div>
-        admin
-=======
     <div class="wrapp">
         <form id="form">
             <ul>
@@ -26,8 +23,8 @@
                 </li>
             </ul>
         </form>
->>>>>>> e7121d763fbcac1029c789dc2d3a309152ac33b4
     </div>
+        </div>
 </template>
 
 <script>
@@ -35,23 +32,11 @@ export default {
   name: 'admin',
   data () {
     return {
-<<<<<<< HEAD
-      msg: 'admin'
-=======
-
->>>>>>> e7121d763fbcac1029c789dc2d3a309152ac33b4
     }
   }
 }
 </script>
-<<<<<<< HEAD
-=======
 
->>>>>>> d0bdd44a22d7b0dc0d8aa1e93fae7c3c83a5439d
-<!-- Add "scoped" attribute to limit CSS to this component only -->
-<<<<<<< HEAD
-<style lang="sass" scoped>
-=======
 <style lang="scss" scoped>
     .wrapp {
         min-height: 200px;
@@ -80,6 +65,5 @@ export default {
             }
         }
     }
->>>>>>> e7121d763fbcac1029c789dc2d3a309152ac33b4
 
 </style>

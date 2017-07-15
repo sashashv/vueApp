@@ -1,6 +1,4 @@
 <template>
-<<<<<<< HEAD
-<<<<<<< HEAD
   <section>
      <ul>
         <li v-for="post in postlist">
@@ -17,33 +15,6 @@
         </li>
      </ul>
   </section>
-=======
-=======
->>>>>>> dev2
-    <div>
-        <ul>
-            <li v-for="post in postList">
-                <h2>{{post.title + " " + post.id}}</h2>
-                <router-link :to="{path : '/' + post.id}">Go to post</router-link>
-                <p>{{post.body}}</p>
-            </li>
-        </ul>
-    </div>
-<<<<<<< HEAD
->>>>>>> d0bdd44a22d7b0dc0d8aa1e93fae7c3c83a5439d
-=======
-=======
-  <div>
-     <ul>
-        <li v-for="post in postlist">
-            <h2>{{post.title +" " + post.id}}</h2>
-            <router-link :to="{path : '/' + post.id}">Go to post</router-link>
-            <p>{{post.body}}</p>
-        </li>
-     </ul>
-  </div>
->>>>>>> e7121d763fbcac1029c789dc2d3a309152ac33b4
->>>>>>> dev2
 </template>
 
 <script>
@@ -51,8 +22,6 @@ export default {
   name: 'post',
   data () {
     return {
-<<<<<<< HEAD
-<<<<<<< HEAD
       postlist: [
       {
         id: 1,
@@ -89,25 +58,28 @@ export default {
 
     section{
         ul{
-            /*display: flex;*/
-            /*justify-content: space-around;*/
+            text-align: right;
             list-style: none;
+            padding: 0;
             li{
                 margin-right: 2%;
+                margin-bottom: 2%;;
                 text-align: left;
-                max-width: 350px;
+                max-width: 30%;
                 display: inline-block;
                 border: 1px solid #d7c4ff;
                 background: #d7c4ff;
                 border-radius: 5px;
-                padding: 5px;
+                padding: 10px;
+                -webkit-box-sizing: border-box;
+                -moz-box-sizing: border-box;
+                box-sizing: border-box;
                 .header-post{
                     img{
                         display: block;
                         margin:auto;
 
                     }
-                    text-align: right;
                     a{
                         display: block;
                         text-decoration: none;
@@ -125,14 +97,13 @@ export default {
                         text-align: center;
                     }
                     .author-post{
-
                     }
                     .date-post{
-
                     }
                 }
                 .body-post{
                     p{
+                        margin: 0;
                         height: 90px;
                         overflow: hidden;
                         text-overflow: ellipsis;
@@ -145,55 +116,4 @@ export default {
 
 </style>
 
-=======
-=======
->>>>>>> dev2
-      postList: [
-      {
-        id: 1,
-        title:"Lorem Ipsum",
-        body:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-        img:""
-       },
-       {
-         id: 2,
-         title: "Lorem Ipsum",
-         body: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-         img:""
-       }
-    ]
-  }
-}
-}
-=======
-      postlist: [
-      {
-        id: 1,
-        title: "Lorem Ipsum",
-        body: "Lorem Ipsum - это текст-\"рыба\", часто используемый в печати и вэб-дизайне.",
-        img: ""
-      },
-      {
-        id: 2,
-        title: "Lorem Ipsum",
-        body: "Lorem Ipsum - это текст-\"рыба\", часто используемый в печати и вэб-дизайне.",
-        img: ""
-       },
-      {
-          id: 3,
-          title: "Lorem Ipsum",
-          body: "Lorem Ipsum - это текст-\"рыба\", часто используемый в печати и вэб-дизайне.",
-          img: ""
-      }
-      ]
-    }
-  }
-}
->>>>>>> e7121d763fbcac1029c789dc2d3a309152ac33b4
-</script>
 
-<!-- Add "scoped" attribute to limit CSS to this component only -->
-<style lang="sass" scoped>
-    
-</style>
->>>>>>> d0bdd44a22d7b0dc0d8aa1e93fae7c3c83a5439d
