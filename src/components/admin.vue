@@ -1,64 +1,66 @@
 <template>
-    <div class="wrapp">
-        <form id="form">
-            <ul>
-                <li>
-                    <span>Post body</span>
-                    <textarea id = "postBody"
-                              class="input"
-                              type="text"
-                              v-model="postBody.msg"
-                              v-bind:class = "{error : !postBody.flag}"
-                    ></textarea>
-                </li>
-                <li>
-                    <span>Theme</span>
-                    <input id = "theme"
-                           class="input"
-                           type="text"
-                           v-model="theme.msg"
-                           v-bind:class = "{error : !theme.flag}">
-                </li>
-                <li>
-                    <span>Images</span>
-                    <input id = "img"
-                           class="input"
-                           type="text"
-                           v-model="image.msg"
-                           v-bind:class = "{error : !image.flag}">
-                </li>
-                <li>
-                    <span>Date</span>
-                    <input id = "date"
-                           class="input"
-                           type="text"
-                           v-model="date.msg"
-                           v-bind:class = "{error : !date.flag}">
-                </li>
-                <li>
-                    <span>Id</span>
-                    <input id = "id"
-                           class="input"
-                           type="text"
-                           v-model="id.msg"
-                           v-bind:class = "{error : !id.flag}">
-                </li>
-                <li>
-                    <span>Author</span>
-                    <input id = "author"
-                           class="input"
-                           type="text"
-                           v-model="author.msg"
-                           v-bind:class = "{error : !author.flag}">
-                </li>
-                <li><input id="submit"
-                           type="submit"
-                           value="Send"
-                           class="lang"
-                           v-on:click="validator">
-                </li>
-            </ul>
-        </form>
+    <div>
+        <div class="wrapp">
+            <form id="form">
+                <ul>
+                    <li>
+                        <span>Post body</span>
+                        <textarea id = "postBody"
+                                  class="input"
+                                  type="text"
+                                  v-model="postBody.msg"
+                                  v-bind:class = "{error : !postBody.flag}"
+                        ></textarea>
+                    </li>
+                    <li>
+                        <span>Theme</span>
+                        <input id = "theme"
+                               class="input"
+                               type="text"
+                               v-model="theme.msg"
+                               v-bind:class = "{error : !theme.flag}">
+                    </li>
+                    <li>
+                        <span>Images</span>
+                        <input id = "img"
+                               class="input"
+                               type="text"
+                               v-model="image.msg"
+                               v-bind:class = "{error : !image.flag}">
+                    </li>
+                    <li>
+                        <span>Date</span>
+                        <input id = "date"
+                               class="input"
+                               type="text"
+                               v-model="date.msg"
+                               v-bind:class = "{error : !date.flag}">
+                    </li>
+                    <li>
+                        <span>Id</span>
+                        <input id = "id"
+                               class="input"
+                               type="text"
+                               v-model="id.msg"
+                               v-bind:class = "{error : !id.flag}">
+                    </li>
+                    <li>
+                        <span>Author</span>
+                        <input id = "author"
+                               class="input"
+                               type="text"
+                               v-model="author.msg"
+                               v-bind:class = "{error : !author.flag}">
+                    </li>
+                    <li><input id="submit"
+                               type="submit"
+                               value="Send"
+                               class="lang"
+                               v-on:click="validator">
+                    </li>
+                </ul>
+            </form>
+        </div>
     </div>
 </template>
 

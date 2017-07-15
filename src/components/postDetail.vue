@@ -17,6 +17,7 @@
 <script>
 
 export default {
+
     name: 'postDetail',
     data () {
         return {
@@ -33,11 +34,6 @@ export default {
 }
 </script>
 
-<<<<<<< HEAD
-
-=======
-<!-- Add "scoped" attribute to limit CSS to this component only -->
->>>>>>> dev3
 <style lang="scss" scoped>
 
     .details {
@@ -45,10 +41,11 @@ export default {
         background: white;
         margin: auto;
     header {
+    margin-top: 20px;
     h1 {
 
         font-size: 26px;
-        padding: 15px 20px;
+        padding: 5px 5px;
         width: 80px;
         height: 30px;
         cursor: pointer;
@@ -61,6 +58,11 @@ export default {
         }
     &:hover{
          box-shadow: 2px 15px 20px lightseagreen;
+         -webkit-transition: all 1s ease-out;
+         -moz-transition: all 1s ease-out ;
+         -ms-transition: all 1s ease-out ;
+         -o-transition: all 1s ease-out ;
+         transition: all 1s ease-out ;
      }
 
     }
@@ -78,16 +80,30 @@ export default {
         padding: 15px;
         border: 2px solid lightseagreen;
         border-radius: 15px;
+        background-color: lightcoral;
+        opacity: 0.6;
+    &:hover{
+         box-shadow: 2px 15px 20px lightseagreen;
+         -webkit-transition: all 1s ease-out;
+         -moz-transition: all 1s ease-out ;
+         -ms-transition: all 1s ease-out ;
+         -o-transition: all 1s ease-out ;
+         transition: all 1s ease-out ;
+     }
     }
         img{
             height: 100px;
             width:200px;
-            border: 3px solid lightcoral;
+            border: 3px solid lightseagreen;
             border-radius: 15px;
             margin-top: 50px;
-            margin-bottom: 20px;
     &:hover{
          box-shadow: 2px 15px 20px lightcoral;
+         -webkit-transition: all 1s ease-out;
+         -moz-transition: all 1s ease-out ;
+         -ms-transition: all 1s ease-out ;
+         -o-transition: all 1s ease-out ;
+         transition: all 1s ease-out ;
      }
         }
     }

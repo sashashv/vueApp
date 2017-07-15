@@ -115,8 +115,4 @@ export default {
     }
 
 </style>
-<<<<<<< HEAD
 
-
-=======
->>>>>>> dev3
