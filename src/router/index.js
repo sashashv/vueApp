@@ -20,16 +20,15 @@ export default new Router({
       name: 'Admin',
       component: Admin
     },
-
-    {
-      path: '/:id',
-      name: 'PostDetail',
-      component: PostDetail
-    },
     {
       path: '/login',
       name: 'Login',
       component: Login
+    },
+    {
+      path: '/:id',
+      name: 'PostDetail',
+      component: PostDetail
     }
   ]
 })

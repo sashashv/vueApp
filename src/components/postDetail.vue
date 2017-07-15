@@ -17,24 +17,27 @@
 <script>
 
 export default {
-  name: 'postDetail',
-  data () {
-    return {
-      postDetail:
-          {
-              id: 1,
-              title:"Post",
-              header: "Lorem ipsum dolor sit amet",
-              post_detail: "Lorem ipsum dolor sit amet, consectetur adipiscing elit,sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit,sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit,sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit,sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit,sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit,sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-              footer:"sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-              img: "http://lorempixel.com/100/100/"
-          }
+    name: 'postDetail',
+    data () {
+        return {
+            postDetail: {
+                id: 1,
+                title: "Post",
+                header: "Lorem ipsum dolor sit amet",
+                post_detail: "Lorem ipsum dolor sit amet, consectetur adipiscing elit,sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit,sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit,sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit,sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit,sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit,sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                footer: "sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                img: "http://lorempixel.com/100/100/"
+            }
+        }
     }
-  }
 }
 </script>
 
+<<<<<<< HEAD
 
+=======
+<!-- Add "scoped" attribute to limit CSS to this component only -->
+>>>>>>> dev3
 <style lang="scss" scoped>
 
     .details {
