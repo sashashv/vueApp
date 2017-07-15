@@ -2,22 +2,28 @@
     <div class="wrapp">
         <form id="form">
             <ul>
-                <li><span>Post body</span>
+                <li>
+                    <span>Post body</span>
                     <textarea id = "postBody" class="input" type="text" value = ""></textarea>
                 </li>
-                <li><span>Theme</span>
+                <li>
+                    <span>Theme</span>
                     <input id = "theme" class="input" type="text" value = "">
                 </li>
-                <li><span>Images</span>
+                <li>
+                    <span>Images</span>
                     <input id = "img" class="input" type="text" value = "">
                 </li>
-                <li><span>Date</span>
+                <li>
+                    <span>Date</span>
                     <input id = "date" class="input" type="text" value = "">
                 </li>
-                <li><span>Id</span>
+                <li>
+                    <span>Id</span>
                     <input id = "id" class="input" type="text" value = "">
                 </li>
-                <li><span>Author</span>
+                <li>
+                    <span>Author</span>
                     <input id = "author" class="input" type="password" value = "">
                 </li>
             </ul>
@@ -56,6 +62,9 @@ export default {
                     height: 36px;
                     list-style: none;
                     text-align: left;
+                    span {
+
+                    }
                     input {
                         width: 202px;
                         float: right;
